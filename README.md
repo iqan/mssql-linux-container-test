@@ -1,5 +1,5 @@
 # Build
-docker build . -t backoffice-db
+docker build . -t test-db
 
 # Run
 docker run -d -p 1401:1433 -e SA_PASSWORD=Iqan#123 -e ACCEPT_EULA=Y test-db
