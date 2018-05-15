@@ -1,3 +1,7 @@
+This is an experimental docker image build script. In this docker image is built from base microsoft/mssql-server-linux and it restores a database on build time from a sql server database backup.
+
+> For linux - add `sudo` before executing commands.
+
 # Build
 docker build . -t test-db
 
