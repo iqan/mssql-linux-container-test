@@ -10,4 +10,4 @@ WORKDIR /work
 
 RUN chmod 755 Restore.sh
 
-RUN ./Restore.sh
+RUN ./Restore.sh RestoreDb.sql
